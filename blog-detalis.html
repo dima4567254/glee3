@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Detalis</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://yoursite.ru/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!---->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <a class="logo__link" href="#">
+                    <img class="logo" src="images/logo.png" alt="logo">
+                </a>
+                <button class="menu__btn" type="button">
+                    <span></span>
+                    <span class="sr-only">open menu</span>
+                </button>
+                <ul class="menu__items">
+                    <li class="menu__item">
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--active" href="#">
+                            Home+
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            About
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#services">
+                            Services
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Pages+
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            News
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav">
+                    <a class=" nav__item nav__item--search" href="#">
+                        <span class="sr-only">product search</span>
+                    </a>
+                    <a class=" nav__item nav__item--heart" href="#">
+                        <span class="nav__num">0</span>
+                        <span class="sr-only">liked week-products</span>
+                    </a>
+                    <a class=" nav__item nav__item--basket" href="#">
+                        <span class="nav__num">0</span>
+                        <span class="sr-only">cart</span>
+                    </a>
+                    <a class=" nav__item nav__item--burger" href="#">
+                        <span class="sr-only">menu</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="top">
+            <div class="breadcrumbs breadcrumbs__blog-one">
+                <h2 class="breadcrumbs__title">
+                    Blog-Detalis
+                </h2>
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__link" href="#">
+                            Home
+                        </a>
+                        <span class="breadcrumbs__delimiter">/</span>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__link" href="#">
+                            Blog
+                        </a>
+                        <span class="breadcrumbs__delimiter">/</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="blog blog-one">
+            <div class="container container--sm">
+                <div class="blog-one__inner blog-inner">
+                    <div class="blog__left">
+                        <div class="blog-one__item">
+                            <div class="blog__images">
+                                <img class="blog-one__img" src="images/blog/room1.jpg" alt="room">
+                                <div class="blog-info blog__blog">
+                                    <p class="blog-info__calendar">
+                                        <svg class="blog-info__svg" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt" height="10pt"
+                                            viewBox="0 0 10 10" version="1.1">
+                                            <path style=" stroke:none;fill-rule:nonzero;fill:white;fill-opacity:1;"
+                                                d="M 0.722656 8.8125 L 2.335938 8.8125 L 2.335938 7.285156 L 0.722656 7.285156 Z M 2.695312 8.8125 L 4.496094 8.8125 L 4.496094 7.285156 L 2.695312 7.285156 Z M 0.722656 6.945312 L 2.335938 6.945312 L 2.335938 5.253906 L 0.722656 5.253906 Z M 2.695312 6.945312 L 4.496094 6.945312 L 4.496094 5.253906 L 2.695312 5.253906 Z M 0.722656 4.917969 L 2.335938 4.917969 L 2.335938 3.386719 L 0.722656 3.386719 Z M 4.851562 8.8125 L 6.652344 8.8125 L 6.652344 7.285156 L 4.851562 7.285156 Z M 2.695312 4.917969 L 4.496094 4.917969 L 4.496094 3.386719 L 2.695312 3.386719 Z M 7.011719 8.8125 L 8.628906 8.8125 L 8.628906 7.285156 L 7.011719 7.285156 Z M 4.851562 6.945312 L 6.652344 6.945312 L 6.652344 5.253906 L 4.851562 5.253906 Z M 2.878906 2.375 L 2.878906 0.847656 C 2.878906 0.753906 2.792969 0.675781 2.695312 0.675781 L 2.335938 0.675781 C 2.242188 0.675781 2.15625 0.753906 2.15625 0.847656 L 2.15625 2.375 C 2.15625 2.460938 2.242188 2.542969 2.335938 2.542969 L 2.695312 2.542969 C 2.792969 2.542969 2.878906 2.460938 2.878906 2.375 Z M 7.011719 6.945312 L 8.628906 6.945312 L 8.628906 5.253906 L 7.011719 5.253906 Z M 4.851562 4.917969 L 6.652344 4.917969 L 6.652344 3.386719 L 4.851562 3.386719 Z M 7.011719 4.917969 L 8.628906 4.917969 L 8.628906 3.386719 L 7.011719 3.386719 Z M 7.191406 2.375 L 7.191406 0.847656 C 7.191406 0.753906 7.105469 0.675781 7.011719 0.675781 L 6.652344 0.675781 C 6.554688 0.675781 6.472656 0.753906 6.472656 0.847656 L 6.472656 2.375 C 6.472656 2.460938 6.554688 2.542969 6.652344 2.542969 L 7.011719 2.542969 C 7.105469 2.542969 7.191406 2.460938 7.191406 2.375 Z M 9.347656 2.03125 L 9.347656 8.8125 C 9.347656 9.183594 9.023438 9.488281 8.628906 9.488281 L 0.722656 9.488281 C 0.328125 9.488281 0 9.183594 0 8.8125 L 0 2.03125 C 0 1.664062 0.328125 1.355469 0.722656 1.355469 L 1.4375 1.355469 L 1.4375 0.847656 C 1.4375 0.378906 1.839844 0 2.335938 0 L 2.695312 0 C 3.1875 0 3.59375 0.378906 3.59375 0.847656 L 3.59375 1.355469 L 5.753906 1.355469 L 5.753906 0.847656 C 5.753906 0.378906 6.160156 0 6.652344 0 L 7.011719 0 C 7.507812 0 7.910156 0.378906 7.910156 0.847656 L 7.910156 1.355469 L 8.628906 1.355469 C 9.023438 1.355469 9.347656 1.664062 9.347656 2.03125 Z M 9.347656 2.03125 " />
+                                        </svg>
+                                        <time datetime="2020-01-28T19:01:26+03:00"> 28 january, 2020</time>
+                                    </p>
+                                    <a class="blog-info__avtar" href="#">
+                                        <svg class="blog-info__svg" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="9pt" height="10pt"
+                                            viewBox="0 0 9 10" version="1.1">
+                                            <path style=" stroke:none;fill-rule:nonzero;fill:white;fill-opacity:1;"
+                                                d="M 6.300781 5.9375 C 5.722656 5.9375 5.445312 6.25 4.5 6.25 C 3.554688 6.25 3.277344 5.9375 2.699219 5.9375 C 1.210938 5.9375 0 7.113281 0 8.5625 L 0 9.0625 C 0 9.578125 0.433594 10 0.964844 10 L 8.035156 10 C 8.566406 10 9 9.578125 9 9.0625 L 9 8.5625 C 9 7.113281 7.789062 5.9375 6.300781 5.9375 Z M 8.035156 9.0625 L 0.964844 9.0625 L 0.964844 8.5625 C 0.964844 7.632812 1.742188 6.875 2.699219 6.875 C 2.992188 6.875 3.46875 7.1875 4.5 7.1875 C 5.539062 7.1875 6.003906 6.875 6.300781 6.875 C 7.257812 6.875 8.035156 7.632812 8.035156 8.5625 Z M 4.5 5.625 C 6.097656 5.625 7.394531 4.367188 7.394531 2.8125 C 7.394531 1.257812 6.097656 0 4.5 0 C 2.902344 0 1.605469 1.257812 1.605469 2.8125 C 1.605469 4.367188 2.902344 5.625 4.5 5.625 Z M 4.5 0.9375 C 5.5625 0.9375 6.429688 1.78125 6.429688 2.8125 C 6.429688 3.84375 5.5625 4.6875 4.5 4.6875 C 3.4375 4.6875 2.570312 3.84375 2.570312 2.8125 C 2.570312 1.78125 3.4375 0.9375 4.5 0.9375 Z M 4.5 0.9375 " />
+                                        </svg> by admin
+                                    </a>
+                                </div>
+                            </div>
+                            <h2 class="blog-one__title title">
+                                Fonsectetur adipisicing eiusmod
+                            </h2>
+                            <div class="blog-one__text">
+                                <span>
+                                    Sdipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim venia Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                </span>
+                                <p>
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut alLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                                <blockquote class="blog-one__blockquote">
+                                    <span>
+                                        Sdipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco laboris
+                                    </span>
+                                    <div class="blog-one__dash">
+                                        Wiusmod tempor
+                                    </div>
+                                </blockquote>
+                                <img class="blog-one__images" src="images/blog/room4.jpg" alt="room">
+                                <h2>
+                                    Riusmod tempor incididunt
+                                </h2>
+                                <div class="blog-one__box">
+                                    <p>
+                                        consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea commodo
+                                    </p>
+                                    <h2>
+                                        Kajtsal jervcm eoaspckred
+                                    </h2>
+                                    <p>
+                                        consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea commodo
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments">
+                            <div class="comments__top">
+                                <div class="comments__inner">
+                                    <img class="comments__images" src="images/avatar/avatar1.jpg"
+                                        alt="Mark N. Hernandez">
+                                    <div class="comments__wrapper">
+                                        <div class="comments__name">
+                                            <p>Mark N. Hernandez</p>
+                                            <span>Designer</span>
+                                        </div>
+                                        <div class="comments__info">
+                                            <div class="comments__tags">
+                                                <p>Tags:</p>
+                                                <a class="comments__link" href="#">
+                                                    All, Trending
+                                                </a>
+                                            </div>
+                                            <div class="comments__share">
+                                                <p>Share:</p>
+                                                <a class="comments__link" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="8.13" height="15.44"
+                                                        viewBox="0 0 8.13 15.44">
+
+                                                        <path data-name="Path 1" fill="#a1a1a1" fill-rule="evenodd"
+                                                            d="M1069.19,1899.12c0.41,0,.83.03,1.24,0.05,0.27,0.01.54,0.04,0.79,0.07l-0.02,2.49H1071c-0.27,0-.54-0.01-0.82-0.01-0.2,0-.4.01-0.61,0.01a1.041,1.041,0,0,0-1.18,1.09c-0.02.6-.03,1.9-0.03,1.97,0.03,0,.68.01,1.34,0.01,0.32,0,.64,0,0.87-0.01h0.53c-0.13.96-.26,1.87-0.39,2.8h-2.35l-0.06,6.97h-2.89l0.06-6.99h-2.37l0.02-2.77h2.38v-0.21c0.01-.56,0-1.12.02-1.68a7.581,7.581,0,0,1,.09-1.06,3.145,3.145,0,0,1,1.27-2.08,3.6,3.6,0,0,1,2.08-.64C1069.04,1899.13,1069.11,1899.12,1069.19,1899.12Z"
+                                                            transform="translate(-1063.09 -1899.12)" />
+                                                    </svg>
+                                                    <span class="sr-only">facebook</span>
+                                                </a>
+                                                <a class="comments__link" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14.31" height="11.62"
+                                                        viewBox="0 0 14.31 11.62">
+
+                                                        <path data-name="Path 2" fill="#a1a1a1" fill-rule="evenodd"
+                                                            d="M1109.69,1902.28c-0.11.16-.21,0.3-0.33,0.45a5.7,5.7,0,0,1-1.07,1.01l-0.05.09a8.22,8.22,0,0,1-.07,1.31,8.818,8.818,0,0,1-.77,2.61,8.712,8.712,0,0,1-1.6,2.3,7.864,7.864,0,0,1-4.05,2.25,8.967,8.967,0,0,1-1.64.2h-0.26a8.172,8.172,0,0,1-4.42-1.27l-0.07-.04a5.322,5.322,0,0,0,.69.04,6.049,6.049,0,0,0,2.25-.44,5.834,5.834,0,0,0,1.4-.82,2.9,2.9,0,0,1-2.71-2.03,3.287,3.287,0,0,0,.54.05,2.82,2.82,0,0,0,.71-0.09l0.05-.02a2.9,2.9,0,0,1-2.32-2.9,2.914,2.914,0,0,0,1.31.35,2.914,2.914,0,0,1-1.2-1.78,2.877,2.877,0,0,1,.34-2.12,8.311,8.311,0,0,0,6.02,3.07c-0.02-.12-0.03-0.22-0.05-0.33a2.8,2.8,0,0,1,.45-1.91,2.853,2.853,0,0,1,1.99-1.33,3.439,3.439,0,0,1,.54-0.04,2.833,2.833,0,0,1,2.03.86,0.139,0.139,0,0,0,.1.05,0.09,0.09,0,0,0,.05-0.01,5.547,5.547,0,0,0,1.71-.65l0.04-.02a2.919,2.919,0,0,1-1.25,1.6A5.859,5.859,0,0,0,1109.69,1902.28Z"
+                                                            transform="translate(-1095.38 -1900.88)" />
+                                                    </svg>
+                                                    <span class="sr-only">twitter</span>
+                                                </a>
+                                                <a class="comments__link" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="13.62" height="13.66"
+                                                        viewBox="0 0 13.62 13.66">
+
+                                                        <path id="Union_2" data-name="Union 2" fill="#a1a1a1"
+                                                            fill-rule="evenodd"
+                                                            d="M1133.34,1913.46a3.431,3.431,0,0,1-2.72-2.98,38.588,38.588,0,0,1,.13-7.67,3.483,3.483,0,0,1,2.98-2.65,27.381,27.381,0,0,1,3.42-.15c1.28,0,2.56.03,3.33,0.07a3.78,3.78,0,0,1,2.5,1.02,3.638,3.638,0,0,1,1.09,2.33,43.2,43.2,0,0,1-.15,7.35,3.485,3.485,0,0,1-3.02,2.73,32.586,32.586,0,0,1-3.76.15A23.5,23.5,0,0,1,1133.34,1913.46Zm0.73-12.12a2.349,2.349,0,0,0-2.18,2.06,45.652,45.652,0,0,0-.05,6.9,2.224,2.224,0,0,0,1.69,1.93,20.971,20.971,0,0,0,3.67.2c1.43,0,2.84-.05,3.37-0.1a2.341,2.341,0,0,0,2.18-2.07,48.648,48.648,0,0,0,.09-6.71,2.3,2.3,0,0,0-2.05-2.18,30.906,30.906,0,0,0-3.41-.13C1136.02,1901.24,1134.66,1901.28,1134.07,1901.34Zm-0.25,5.5a3.517,3.517,0,0,1,3.53-3.5,3.459,3.459,0,0,1,3.47,3.5,3.53,3.53,0,0,1-3.53,3.5A3.466,3.466,0,0,1,1133.82,1906.84Zm1.23-.03a2.252,2.252,0,0,0,2.23,2.29h0.02a2.284,2.284,0,0,0,2.28-2.24,2.237,2.237,0,0,0-2.22-2.29h-0.02A2.293,2.293,0,0,0,1135.05,1906.81Zm5.12-3.61a0.824,0.824,0,0,1,.82-0.82H1141a0.815,0.815,0,0,1,.81.82,0.826,0.826,0,0,1-.83.82A0.815,0.815,0,0,1,1140.17,1903.2Z"
+                                                            transform="translate(-1130.5 -1900)" />
+                                                    </svg>
+                                                    <span class="sr-only">instagram</span>
+                                                </a>
+                                                <a class="comments__link" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18.03" height="11.41"
+                                                        viewBox="0 0 18.03 11.41">
+
+                                                        <path data-name="Union 1" fill="#a1a1a1" fill-rule="evenodd"
+                                                            d="M1170.27,1912.73a5.653,5.653,0,0,1-5.24-4.49,5.314,5.314,0,0,1-.11-1.54,5.573,5.573,0,0,1,1.29-3.25,5.683,5.683,0,0,1,3.07-1.96,4.271,4.271,0,0,1,.94-0.14c0.18-.01.36-0.02,0.55-0.02a5.311,5.311,0,0,1,2.69.74,6.276,6.276,0,0,1,1.01.74c-0.57.56-1.11,1.11-1.67,1.66a3.053,3.053,0,0,0-1.67-.81,4.051,4.051,0,0,0-.48-0.04,3.429,3.429,0,0,0-3.29,2.67,2.977,2.977,0,0,0-.08,1.03,3.429,3.429,0,0,0,2.33,2.97,3.365,3.365,0,0,0,1,.15c0.08,0,.15-0.01.23-0.01a3.427,3.427,0,0,0,1.67-.53,2.65,2.65,0,0,0,1.13-1.72h-3.05c0-.08.01-1.5,0.01-2.2l0.01-.09h5.36a6.171,6.171,0,0,1-1.01,4.81,5.029,5.029,0,0,1-2.82,1.84,6.2,6.2,0,0,1-1.54.2C1170.49,1912.74,1170.38,1912.73,1170.27,1912.73Zm10.59-3.22h-1.51v-0.06l0.02-1.93h-1.99v-0.06l0.01-1.44v-0.06h1.99l0.01-1.93,0.01-.06h1.55v0.06l-0.01,1.93h1.99v0.06l-0.01,1.44v0.06h-1.99l-0.02,1.93v0.06h-0.05Z"
+                                                            transform="translate(-1164.91 -1901.34)" />
+                                                    </svg>
+                                                    <span class="sr-only">google</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="comments__title">
+                            3 Comments
+                        </h2>
+                        <div class="comments__bottom">
+                            <ul class="comments__items">
+                                <li class="comments__item">
+                                    <img class="comments__img" src="images/avatar/avatar2.jpg" alt="avatar">
+                                    <div class="comments__content">
+                                        <div class="comments__wrapper">
+                                            <div class="comments__subtitle">
+                                                Delores G. Roberts
+                                            </div>
+                                            <time class="comments__date" datetime="2020-01-28T19:01:26+03:00">
+                                                Add 11 Oct 2020
+                                            </time>
+                                        </div>
+                                        <div class="comments__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                            fringilla massa et tristique convallis. Class aptent taciti sociosqu ad
+                                            litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                                            orci sem, ultrices
+                                        </div>
+                                        <a class="comments__reply" href="#">
+                                            Reply
+                                            <svg class="comments__svg" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt" height="11pt"
+                                                viewBox="0 0 10 11" version="1.1">
+
+                                                <path style="
+                                                        stroke:none;fill-rule:nonzero;fill:#526278;fill-opacity:1;"
+                                                    d="M 4.867188 0.820312 L 4.425781 1.242188 C 4.320312 1.34375 4.320312 1.507812 4.425781 1.609375 L 7.890625 4.941406 L 0.269531 4.941406 C 0.121094 4.941406 0 5.058594 0 5.199219 L 0 5.800781 C 0 5.941406 0.121094 6.058594 0.269531 6.058594 L 7.890625 6.058594 L 4.425781 9.390625 C 4.320312 9.492188 4.320312 9.65625 4.425781 9.757812 L 4.867188 10.179688 C 4.972656 10.28125 5.140625 10.28125 5.246094 10.179688 L 9.921875 5.683594 C 10.027344 5.582031 10.027344 5.417969 9.921875 5.316406 L 5.246094 0.820312 C 5.140625 0.71875 4.972656 0.71875 4.867188 0.820312 Z M 4.867188 0.820312 " />
+
+                                            </svg>
+                                            <span class="sr-only">arrow</span>
+                                        </a>
+
+                                    </div>
+                                </li>
+
+                                <li class="comments__item  comments__indent">
+
+                                    <img class="comments__img" src="images/avatar/avatar3.jpg" alt="avatar">
+                                    <div class="comments__content">
+                                        <div class="comments__wrapper">
+                                            <div class="comments__subtitle">
+                                                Shannon S. Williams
+                                            </div>
+                                            <time class="comments__date" datetime="2020-01-28T19:01:26+03:00">
+                                                Add 11 Oct 2020
+                                            </time>
+                                        </div>
+                                        <div class="comments__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                            fringilla massa et tristique convallis. Class aptent taciti sociosqu ad
+                                            litora torquent per conubia nostra
+                                        </div>
+                                        <a class="comments__reply" href="#">
+                                            Reply
+                                            <svg class="comments__svg" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt" height="11pt"
+                                                viewBox="0 0 10 11" version="1.1">
+
+                                                <path style="
+                                                        stroke:none;fill-rule:nonzero;fill:#526278;fill-opacity:1;"
+                                                    d="M 4.867188 0.820312 L 4.425781 1.242188 C 4.320312 1.34375 4.320312 1.507812 4.425781 1.609375 L 7.890625 4.941406 L 0.269531 4.941406 C 0.121094 4.941406 0 5.058594 0 5.199219 L 0 5.800781 C 0 5.941406 0.121094 6.058594 0.269531 6.058594 L 7.890625 6.058594 L 4.425781 9.390625 C 4.320312 9.492188 4.320312 9.65625 4.425781 9.757812 L 4.867188 10.179688 C 4.972656 10.28125 5.140625 10.28125 5.246094 10.179688 L 9.921875 5.683594 C 10.027344 5.582031 10.027344 5.417969 9.921875 5.316406 L 5.246094 0.820312 C 5.140625 0.71875 4.972656 0.71875 4.867188 0.820312 Z M 4.867188 0.820312 " />
+
+                                            </svg>
+                                            <span class="sr-only">arrow</span>
+                                        </a>
+                                    </div>
+
+                                </li>
+                                <li class="comments__item">
+                                    <img class="comments__img" src="images/avatar/avatar4.jpg" alt="avatar">
+                                    <div class="comments__content">
+                                        <div class="comments__wrapper">
+                                            <div class="comments__subtitle">
+                                                Nicholas R. Coley
+                                            </div>
+                                            <time class="comments__date" datetime="2020-01-28T19:01:26+03:00">
+                                                Add 11 Oct 2020
+                                            </time>
+                                        </div>
+                                        <div class="comments__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                            fringilla massa et tristique convallis. Class aptent taciti sociosqu ad
+                                            litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                                            orci sem,
+                                        </div>
+                                        <a class="comments__reply" href="#">
+                                            Reply
+                                            <svg class="comments__svg" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt" height="11pt"
+                                                viewBox="0 0 10 11" version="1.1">
+                                                <path style="
+                                                        stroke:none;fill-rule:nonzero;fill:#526278;fill-opacity:1;"
+                                                    d="M 4.867188 0.820312 L 4.425781 1.242188 C 4.320312 1.34375 4.320312 1.507812 4.425781 1.609375 L 7.890625 4.941406 L 0.269531 4.941406 C 0.121094 4.941406 0 5.058594 0 5.199219 L 0 5.800781 C 0 5.941406 0.121094 6.058594 0.269531 6.058594 L 7.890625 6.058594 L 4.425781 9.390625 C 4.320312 9.492188 4.320312 9.65625 4.425781 9.757812 L 4.867188 10.179688 C 4.972656 10.28125 5.140625 10.28125 5.246094 10.179688 L 9.921875 5.683594 C 10.027344 5.582031 10.027344 5.417969 9.921875 5.316406 L 5.246094 0.820312 C 5.140625 0.71875 4.972656 0.71875 4.867188 0.820312 Z M 4.867188 0.820312 " />
+                                            </svg>
+                                            <span class="sr-only">arrow</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <form class="blog-one-form">
+                            <h2 class="blog-one-form__title">
+                                Leave A Comment
+                            </h2>
+                            <label class=" blog-one-form__user label-blog" for="name-input">
+                                <input class="blog-one-form__name" name="name" id="name-input" type="text"
+                                    placeholder="Name" required
+                                    oninvalid="this.setCustomValidity('fill in this field!')">
+                            </label>
+                            <label class="blog-one-form__letter label-blog" for="email-blog-one">
+                                <input class="blog-one-form__email" type="email" placeholder="youremail@gmail.com"
+                                    name="email" id="email-blog-one" required
+                                    oninvalid="this.setCustomValidity('fill in this field!')">
+                            </label>
+                            <label class="blog-one-form__message label-blog" for="Comment-input">
+                                <textarea class="blog-one-form__textarea" placeholder="Comment" id="Comment-input"
+                                    name="Comment" required
+                                    oninvalid="this.setCustomValidity('fill in this field!')"></textarea>
+                            </label>
+                            <button class="blog-one-form__button btn" type="submit">
+                                Post Comment
+                            </button>
+                        </form>
+                    </div>
+
+
+                    <div class="blog__right">
+                        <div class="blog-search">
+                            <form class="blog__form">
+                                <label class="sr-only" for="search">
+                                    search
+                                </label>
+                                <input class="blog__input" type="text" id="search" name="search" required
+                                    oninvalid="this.setCustomValidity('fill in this field!')">
+                                <button class="blog__button" type="submit">
+                                    <img src="images/icons/search-blue.svg" alt=" search">
+                                </button>
+                            </form>
+                            <div class="catalog-category catalog-category-item">
+                                <h3 class="catalog-title">
+                                    category
+                                </h3>
+                                <form class="catalog-category__form">
+                                    <label class="catalog-category__label" for="checkbox">
+                                        <input class="catalog-category__input checkbox-hidden" type="checkbox"
+                                            id="checkbox" checked>
+                                        <span class="catalog-category__checkbox">
+                                            <span>Chair</span>
+                                            <img src="images/icons/arrow-icon.svg" alt="arrow-icon">
+                                        </span>
+                                    </label>
+
+                                    <label class="catalog-category__label" for="checkbox2">
+                                        <input class="catalog-category__input checkbox-hidden" type="checkbox"
+                                            id="checkbox2">
+                                        <span class="catalog-category__checkbox">
+                                            <span>Table</span>
+                                            <img src="images/icons/arrow-icon.svg" alt="arrow-icon">
+                                        </span>
+                                    </label>
+
+                                    <label class="catalog-category__label" for="checkbox3">
+                                        <input class="catalog-category__input checkbox-hidden" type="checkbox"
+                                            id="checkbox3">
+                                        <span class="catalog-category__checkbox">
+                                            <span>Lamp</span>
+                                            <img src="images/icons/arrow-icon.svg" alt="arrow-icon">
+                                        </span>
+                                    </label>
+
+                                    <label class="catalog-category__label" for="checkbox4">
+                                        <input class="catalog-category__input checkbox-hidden" type="checkbox"
+                                            id="checkbox4">
+                                        <span class="catalog-category__checkbox">
+                                            <span>Watch</span>
+                                            <img src="images/icons/arrow-icon.svg" alt="arrow-icon">
+                                        </span>
+                                    </label>
+
+                                    <label class="catalog-category__label" for="checkbox5">
+                                        <input class="catalog-category__input checkbox-hidden" type="checkbox"
+                                            id="checkbox5">
+                                        <span class="catalog-category__checkbox">
+                                            <span>Clock</span>
+                                            <img src="images/icons/arrow-icon.svg" alt="arrow-icon">
+                                        </span>
+                                    </label>
+                                </form>
+                            </div>
+
+                            <div class="recent-posts">
+                                <h2 class="recent-posts__title">
+                                    Recent Posts
+                                </h2>
+                                <ul class="recent-posts__items">
+                                    <li class="recent-posts__item">
+                                        <div class="recent-posts__inner">
+                                            <a class="recent-posts__box" href="#">
+                                                <img class="recent-posts__img" src="images/posts/posts1.jpg"
+                                                    alt="Corem ipsum dolor tetur adipisicing elit">
+                                            </a>
+                                            <div class="recent-posts__content">
+                                                <div class="recent-posts__text">
+                                                    <a class="recent-posts__link" href="#">
+                                                        Corem ipsum dolor tetur adipisicing elit
+                                                    </a>
+                                                </div>
+                                                <div class="recent-posts__calendar">
+                                                    <a class="recent-posts__link" href="#">
+                                                        <svg class="recent-posts__svg"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt"
+                                                            height="10pt" viewBox="0 0 10 10" version="1.1">
+                                                            <path
+                                                                style="
+                                                             stroke:none;fill-rule:nonzero;fill:#d0d0d0;fill-opacity:1;"
+                                                                d="M 0.722656 8.8125 L 2.335938 8.8125 L 2.335938 7.285156 L 0.722656 7.285156 Z M 2.695312 8.8125 L 4.496094 8.8125 L 4.496094 7.285156 L 2.695312 7.285156 Z M 0.722656 6.945312 L 2.335938 6.945312 L 2.335938 5.253906 L 0.722656 5.253906 Z M 2.695312 6.945312 L 4.496094 6.945312 L 4.496094 5.253906 L 2.695312 5.253906 Z M 0.722656 4.917969 L 2.335938 4.917969 L 2.335938 3.386719 L 0.722656 3.386719 Z M 4.851562 8.8125 L 6.652344 8.8125 L 6.652344 7.285156 L 4.851562 7.285156 Z M 2.695312 4.917969 L 4.496094 4.917969 L 4.496094 3.386719 L 2.695312 3.386719 Z M 7.011719 8.8125 L 8.628906 8.8125 L 8.628906 7.285156 L 7.011719 7.285156 Z M 4.851562 6.945312 L 6.652344 6.945312 L 6.652344 5.253906 L 4.851562 5.253906 Z M 2.878906 2.375 L 2.878906 0.847656 C 2.878906 0.753906 2.792969 0.675781 2.695312 0.675781 L 2.335938 0.675781 C 2.242188 0.675781 2.15625 0.753906 2.15625 0.847656 L 2.15625 2.375 C 2.15625 2.460938 2.242188 2.542969 2.335938 2.542969 L 2.695312 2.542969 C 2.792969 2.542969 2.878906 2.460938 2.878906 2.375 Z M 7.011719 6.945312 L 8.628906 6.945312 L 8.628906 5.253906 L 7.011719 5.253906 Z M 4.851562 4.917969 L 6.652344 4.917969 L 6.652344 3.386719 L 4.851562 3.386719 Z M 7.011719 4.917969 L 8.628906 4.917969 L 8.628906 3.386719 L 7.011719 3.386719 Z M 7.191406 2.375 L 7.191406 0.847656 C 7.191406 0.753906 7.105469 0.675781 7.011719 0.675781 L 6.652344 0.675781 C 6.554688 0.675781 6.472656 0.753906 6.472656 0.847656 L 6.472656 2.375 C 6.472656 2.460938 6.554688 2.542969 6.652344 2.542969 L 7.011719 2.542969 C 7.105469 2.542969 7.191406 2.460938 7.191406 2.375 Z M 9.347656 2.03125 L 9.347656 8.8125 C 9.347656 9.183594 9.023438 9.488281 8.628906 9.488281 L 0.722656 9.488281 C 0.328125 9.488281 0 9.183594 0 8.8125 L 0 2.03125 C 0 1.664062 0.328125 1.355469 0.722656 1.355469 L 1.4375 1.355469 L 1.4375 0.847656 C 1.4375 0.378906 1.839844 0 2.335938 0 L 2.695312 0 C 3.1875 0 3.59375 0.378906 3.59375 0.847656 L 3.59375 1.355469 L 5.753906 1.355469 L 5.753906 0.847656 C 5.753906 0.378906 6.160156 0 6.652344 0 L 7.011719 0 C 7.507812 0 7.910156 0.378906 7.910156 0.847656 L 7.910156 1.355469 L 8.628906 1.355469 C 9.023438 1.355469 9.347656 1.664062 9.347656 2.03125 Z M 9.347656 2.03125 " />
+                                                        </svg> 28 january, 2020
+                                                        <span class="sr-only">calendar</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="recent-posts__item">
+                                        <div class="recent-posts__inner">
+                                            <a class="recent-posts__box" href="#">
+                                                <img class="recent-posts__img" src="images/posts/posts2.jpg" alt="">
+                                            </a>
+                                            <div class="recent-posts__content">
+                                                <div class="recent-posts__text">
+                                                    <a class="recent-posts__link" href="#">
+                                                        Fdipisicing elit, sed do eiusmod tempor
+                                                    </a>
+                                                </div>
+                                                <div class="recent-posts__calendar">
+                                                    <a class="recent-posts__link" href="#">
+                                                        <svg class="recent-posts__svg"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt"
+                                                            height="10pt" viewBox="0 0 10 10" version="1.1">
+                                                            <path
+                                                                style="
+                                                             stroke:none;fill-rule:nonzero;fill:#d0d0d0;fill-opacity:1;"
+                                                                d="M 0.722656 8.8125 L 2.335938 8.8125 L 2.335938 7.285156 L 0.722656 7.285156 Z M 2.695312 8.8125 L 4.496094 8.8125 L 4.496094 7.285156 L 2.695312 7.285156 Z M 0.722656 6.945312 L 2.335938 6.945312 L 2.335938 5.253906 L 0.722656 5.253906 Z M 2.695312 6.945312 L 4.496094 6.945312 L 4.496094 5.253906 L 2.695312 5.253906 Z M 0.722656 4.917969 L 2.335938 4.917969 L 2.335938 3.386719 L 0.722656 3.386719 Z M 4.851562 8.8125 L 6.652344 8.8125 L 6.652344 7.285156 L 4.851562 7.285156 Z M 2.695312 4.917969 L 4.496094 4.917969 L 4.496094 3.386719 L 2.695312 3.386719 Z M 7.011719 8.8125 L 8.628906 8.8125 L 8.628906 7.285156 L 7.011719 7.285156 Z M 4.851562 6.945312 L 6.652344 6.945312 L 6.652344 5.253906 L 4.851562 5.253906 Z M 2.878906 2.375 L 2.878906 0.847656 C 2.878906 0.753906 2.792969 0.675781 2.695312 0.675781 L 2.335938 0.675781 C 2.242188 0.675781 2.15625 0.753906 2.15625 0.847656 L 2.15625 2.375 C 2.15625 2.460938 2.242188 2.542969 2.335938 2.542969 L 2.695312 2.542969 C 2.792969 2.542969 2.878906 2.460938 2.878906 2.375 Z M 7.011719 6.945312 L 8.628906 6.945312 L 8.628906 5.253906 L 7.011719 5.253906 Z M 4.851562 4.917969 L 6.652344 4.917969 L 6.652344 3.386719 L 4.851562 3.386719 Z M 7.011719 4.917969 L 8.628906 4.917969 L 8.628906 3.386719 L 7.011719 3.386719 Z M 7.191406 2.375 L 7.191406 0.847656 C 7.191406 0.753906 7.105469 0.675781 7.011719 0.675781 L 6.652344 0.675781 C 6.554688 0.675781 6.472656 0.753906 6.472656 0.847656 L 6.472656 2.375 C 6.472656 2.460938 6.554688 2.542969 6.652344 2.542969 L 7.011719 2.542969 C 7.105469 2.542969 7.191406 2.460938 7.191406 2.375 Z M 9.347656 2.03125 L 9.347656 8.8125 C 9.347656 9.183594 9.023438 9.488281 8.628906 9.488281 L 0.722656 9.488281 C 0.328125 9.488281 0 9.183594 0 8.8125 L 0 2.03125 C 0 1.664062 0.328125 1.355469 0.722656 1.355469 L 1.4375 1.355469 L 1.4375 0.847656 C 1.4375 0.378906 1.839844 0 2.335938 0 L 2.695312 0 C 3.1875 0 3.59375 0.378906 3.59375 0.847656 L 3.59375 1.355469 L 5.753906 1.355469 L 5.753906 0.847656 C 5.753906 0.378906 6.160156 0 6.652344 0 L 7.011719 0 C 7.507812 0 7.910156 0.378906 7.910156 0.847656 L 7.910156 1.355469 L 8.628906 1.355469 C 9.023438 1.355469 9.347656 1.664062 9.347656 2.03125 Z M 9.347656 2.03125 " />
+                                                        </svg>
+                                                        <span class="sr-only">calendar</span> 28 january, 2020
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="recent-posts__item">
+                                        <div class="recent-posts__inner">
+                                            <a class="recent-posts__box" href="#">
+                                                <img class="recent-posts__img" src="images/posts/posts3.jpg"
+                                                    alt="Eonsectetur adipisicing elit, sed do eiusmod">
+                                            </a>
+                                            <div class="recent-posts__content">
+                                                <div class="recent-posts__text">
+                                                    <a class="recent-posts__link" href="#">
+                                                        Eonsectetur adipisicing elit, sed do eiusmod
+                                                    </a>
+                                                </div>
+                                                <div class="recent-posts__calendar">
+                                                    <a class="recent-posts__link" href="#">
+                                                        <svg class="recent-posts__svg"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt"
+                                                            height="10pt" viewBox="0 0 10 10" version="1.1">
+                                                            <path
+                                                                style="
+                                                             stroke:none;fill-rule:nonzero;fill:#d0d0d0;fill-opacity:1;"
+                                                                d="M 0.722656 8.8125 L 2.335938 8.8125 L 2.335938 7.285156 L 0.722656 7.285156 Z M 2.695312 8.8125 L 4.496094 8.8125 L 4.496094 7.285156 L 2.695312 7.285156 Z M 0.722656 6.945312 L 2.335938 6.945312 L 2.335938 5.253906 L 0.722656 5.253906 Z M 2.695312 6.945312 L 4.496094 6.945312 L 4.496094 5.253906 L 2.695312 5.253906 Z M 0.722656 4.917969 L 2.335938 4.917969 L 2.335938 3.386719 L 0.722656 3.386719 Z M 4.851562 8.8125 L 6.652344 8.8125 L 6.652344 7.285156 L 4.851562 7.285156 Z M 2.695312 4.917969 L 4.496094 4.917969 L 4.496094 3.386719 L 2.695312 3.386719 Z M 7.011719 8.8125 L 8.628906 8.8125 L 8.628906 7.285156 L 7.011719 7.285156 Z M 4.851562 6.945312 L 6.652344 6.945312 L 6.652344 5.253906 L 4.851562 5.253906 Z M 2.878906 2.375 L 2.878906 0.847656 C 2.878906 0.753906 2.792969 0.675781 2.695312 0.675781 L 2.335938 0.675781 C 2.242188 0.675781 2.15625 0.753906 2.15625 0.847656 L 2.15625 2.375 C 2.15625 2.460938 2.242188 2.542969 2.335938 2.542969 L 2.695312 2.542969 C 2.792969 2.542969 2.878906 2.460938 2.878906 2.375 Z M 7.011719 6.945312 L 8.628906 6.945312 L 8.628906 5.253906 L 7.011719 5.253906 Z M 4.851562 4.917969 L 6.652344 4.917969 L 6.652344 3.386719 L 4.851562 3.386719 Z M 7.011719 4.917969 L 8.628906 4.917969 L 8.628906 3.386719 L 7.011719 3.386719 Z M 7.191406 2.375 L 7.191406 0.847656 C 7.191406 0.753906 7.105469 0.675781 7.011719 0.675781 L 6.652344 0.675781 C 6.554688 0.675781 6.472656 0.753906 6.472656 0.847656 L 6.472656 2.375 C 6.472656 2.460938 6.554688 2.542969 6.652344 2.542969 L 7.011719 2.542969 C 7.105469 2.542969 7.191406 2.460938 7.191406 2.375 Z M 9.347656 2.03125 L 9.347656 8.8125 C 9.347656 9.183594 9.023438 9.488281 8.628906 9.488281 L 0.722656 9.488281 C 0.328125 9.488281 0 9.183594 0 8.8125 L 0 2.03125 C 0 1.664062 0.328125 1.355469 0.722656 1.355469 L 1.4375 1.355469 L 1.4375 0.847656 C 1.4375 0.378906 1.839844 0 2.335938 0 L 2.695312 0 C 3.1875 0 3.59375 0.378906 3.59375 0.847656 L 3.59375 1.355469 L 5.753906 1.355469 L 5.753906 0.847656 C 5.753906 0.378906 6.160156 0 6.652344 0 L 7.011719 0 C 7.507812 0 7.910156 0.378906 7.910156 0.847656 L 7.910156 1.355469 L 8.628906 1.355469 C 9.023438 1.355469 9.347656 1.664062 9.347656 2.03125 Z M 9.347656 2.03125 " />
+                                                        </svg>
+                                                        <span class="sr-only">calendar</span> 28 january, 2020
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="recent-posts__item">
+                                        <div class="recent-posts__inner">
+                                            <a class="recent-posts__box" href="#">
+                                                <img class="recent-posts__img" src="images/posts/posts4.jpg" alt="">
+                                            </a>
+                                            <div class="recent-posts__content">
+                                                <div class="recent-posts__text">
+                                                    <a class="recent-posts__link" href="#">
+                                                        gnim ad minim veniam, quis nostrud
+                                                    </a>
+                                                </div>
+                                                <div class="recent-posts__calendar">
+                                                    <a class="recent-posts__link" href="#">
+                                                        <svg class="recent-posts__svg"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            xmlns:xlink="http://www.w3.org/1999/xlink" width="10pt"
+                                                            height="10pt" viewBox="0 0 10 10" version="1.1">
+                                                            <path
+                                                                style="
+                                                             stroke:none;fill-rule:nonzero;fill:#d0d0d0;fill-opacity:1;"
+                                                                d="M 0.722656 8.8125 L 2.335938 8.8125 L 2.335938 7.285156 L 0.722656 7.285156 Z M 2.695312 8.8125 L 4.496094 8.8125 L 4.496094 7.285156 L 2.695312 7.285156 Z M 0.722656 6.945312 L 2.335938 6.945312 L 2.335938 5.253906 L 0.722656 5.253906 Z M 2.695312 6.945312 L 4.496094 6.945312 L 4.496094 5.253906 L 2.695312 5.253906 Z M 0.722656 4.917969 L 2.335938 4.917969 L 2.335938 3.386719 L 0.722656 3.386719 Z M 4.851562 8.8125 L 6.652344 8.8125 L 6.652344 7.285156 L 4.851562 7.285156 Z M 2.695312 4.917969 L 4.496094 4.917969 L 4.496094 3.386719 L 2.695312 3.386719 Z M 7.011719 8.8125 L 8.628906 8.8125 L 8.628906 7.285156 L 7.011719 7.285156 Z M 4.851562 6.945312 L 6.652344 6.945312 L 6.652344 5.253906 L 4.851562 5.253906 Z M 2.878906 2.375 L 2.878906 0.847656 C 2.878906 0.753906 2.792969 0.675781 2.695312 0.675781 L 2.335938 0.675781 C 2.242188 0.675781 2.15625 0.753906 2.15625 0.847656 L 2.15625 2.375 C 2.15625 2.460938 2.242188 2.542969 2.335938 2.542969 L 2.695312 2.542969 C 2.792969 2.542969 2.878906 2.460938 2.878906 2.375 Z M 7.011719 6.945312 L 8.628906 6.945312 L 8.628906 5.253906 L 7.011719 5.253906 Z M 4.851562 4.917969 L 6.652344 4.917969 L 6.652344 3.386719 L 4.851562 3.386719 Z M 7.011719 4.917969 L 8.628906 4.917969 L 8.628906 3.386719 L 7.011719 3.386719 Z M 7.191406 2.375 L 7.191406 0.847656 C 7.191406 0.753906 7.105469 0.675781 7.011719 0.675781 L 6.652344 0.675781 C 6.554688 0.675781 6.472656 0.753906 6.472656 0.847656 L 6.472656 2.375 C 6.472656 2.460938 6.554688 2.542969 6.652344 2.542969 L 7.011719 2.542969 C 7.105469 2.542969 7.191406 2.460938 7.191406 2.375 Z M 9.347656 2.03125 L 9.347656 8.8125 C 9.347656 9.183594 9.023438 9.488281 8.628906 9.488281 L 0.722656 9.488281 C 0.328125 9.488281 0 9.183594 0 8.8125 L 0 2.03125 C 0 1.664062 0.328125 1.355469 0.722656 1.355469 L 1.4375 1.355469 L 1.4375 0.847656 C 1.4375 0.378906 1.839844 0 2.335938 0 L 2.695312 0 C 3.1875 0 3.59375 0.378906 3.59375 0.847656 L 3.59375 1.355469 L 5.753906 1.355469 L 5.753906 0.847656 C 5.753906 0.378906 6.160156 0 6.652344 0 L 7.011719 0 C 7.507812 0 7.910156 0.378906 7.910156 0.847656 L 7.910156 1.355469 L 8.628906 1.355469 C 9.023438 1.355469 9.347656 1.664062 9.347656 2.03125 Z M 9.347656 2.03125 " />
+                                                        </svg>
+                                                        <span class="sr-only">calendar</span>
+                                                        28 january, 2020
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="partners partners--wraper">
+                <div class="container container--sm">
+                    <ul class="partners__list">
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners1.png" alt="peterson stephanie">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners2.png" alt="kmn">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners3.png" alt="chainforce">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners4.png" alt="nextg3n">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners5.png" alt="vintage">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners1.png" alt="peterson stephanie">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners2.png" alt="kmn">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners3.png" alt="chainforce">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners4.png" alt="nextg3n">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners5.png" alt="vintage">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners1.png" alt="peterson stephanie">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners2.png" alt="kmn">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners3.png" alt="chainforce">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners4.png" alt="nextg3n">
+                        </li>
+                        <li class="partners__item">
+                            <img class="partners__img" src="images/partners/partners5.png" alt="vintage">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container--sm">
+            <div class="footer__top">
+                <div class="footer__item footer__item--order ">
+                    <a class="logo  footer__logo" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <address class="footer__info">
+                        <p>
+                            <a class="footer__link" href="#">
+                                <span>Address:</span>
+                                4772 Wines Lane Houston, TX 77032
+                            </a>
+                        </p>
+                        <p>
+                            <a class="footer__link" href="tel:+8323475843">
+                                <span>Telephone:</span>
+                                +832-347-5843
+                            </a>
+                        </p>
+                        <p>
+                            <a class="footer__link" href="mailto:contact@glee.com">
+                                <span>Email:</span>
+                                contact@Glee.com
+                            </a>
+                        </p>
+                    </address>
+                </div>
+                <div class="footer__item">
+                    <span class="footer__title">
+                        Services
+                    </span>
+                    <ul class="footer__text">
+                        <li>
+                            <a class="footer__link" href="#">
+                                About us
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Return Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Our Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Terms & Condition
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__item">
+                    <span class="footer__title">
+                        Account
+                    </span>
+
+                    <ul class="footer__text">
+                        <li>
+                            <a class="footer__link" href="#">
+                                Your Account
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Checkout
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Login
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="#">
+                                Register
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <span class="footer__title">
+                        Newsletter
+                    </span>
+                    <div class="footer__text">
+                        <p>
+                            Subscribe by our newsletter and get update protidin.
+                        </p>
+                    </div>
+                    <form class="footer__form">
+                        <label class="sr-only" for="email-input">
+                            Enter your email
+                        </label>
+                        <input class="footer__input" id="email-input" type="email" name="email"
+                            placeholder="Email address" required
+                            oninvalid="this.setCustomValidity('fill in this field!')">
+                        <button class="footer__btn" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy">
+                    ©2020 CopyRight Example. All rights reserved.
+                </p>
+                <ul class="footer__list">
+                    <li class="footer__item-nav">
+                        <a class="footer__link-nav" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="footer__item-nav">
+                        <a class="footer__link-nav" href="#">
+                            About
+                        </a>
+                    </li>
+                    <li class="footer__item-nav">
+                        <a class="footer__link-nav" href="#">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="footer__item-nav">
+                        <a class="footer__link-nav" href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
